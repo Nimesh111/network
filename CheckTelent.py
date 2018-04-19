@@ -3,6 +3,7 @@ import telnetlib
 import sys
 
 def telentcheck():
+	# Enter your host IP address here..
 	Host=""
 	username=raw_input("Enter Your Username:")
 	password= getpass.getpass()
